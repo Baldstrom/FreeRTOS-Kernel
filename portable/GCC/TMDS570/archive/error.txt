@@ -1,0 +1,66 @@
+[1/57] Building ASM object port/CMakeFiles/freertos_kernel_port.dir/portASM.asm.obj 
+    arm-none-eabi-gcc: warning: /home/cmcd/Documents/github/tmds570_rtos/port/portASM.asm: linker input file unused because linking not done 
+[2/57] Building C object kernel/CMakeFiles/freertos_kernel.dir/croutine.c.obj 
+[3/57] Building ASM object hal/CMakeFiles/tmdx570_hal.dir/source/dabort.asm.obj arm-none-eabi-gcc: warning: /home/cmcd/Documents/github/tmds570_rtos/hal/source/dabort.asm: linker input file unused because linking not done 
+[4/57] Building C object kernel/CMakeFiles/freertos_kernel.dir/list.c.obj 
+[5/57] Building ASM object hal/CMakeFiles/tmdx570_hal.dir/source/dabort.s.obj 
+[6/57] Building C object port/CMakeFiles/freertos_kernel_port.dir/port.c.obj 
+[7/57] Building C object kernel/CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.obj 
+[8/57] Building C object CMakeFiles/freertos-test.dir/src/nosys.c.obj 
+[9/57] Building C object CMakeFiles/freertos-test.dir/src/main.c.obj 
+[10/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/adc.c.obj 
+[11/57] Building C object kernel/CMakeFiles/freertos_kernel.dir/event_groups.c.obj 
+[12/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/crc.c.obj 
+[13/57] Building C object kernel/CMakeFiles/freertos_kernel.dir/timers.c.obj 
+[14/57] Building C object kernel/CMakeFiles/freertos_kernel.dir/stream_buffer.c.obj 
+[15/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/can.c.obj 
+[16/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/dmm.c.obj 
+[17/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/dcc.c.obj 
+[18/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/emif.c.obj 
+[19/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/gio.c.obj 
+[20/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/errata_SSWF021_45.c.obj 
+[21/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/esm.c.obj 
+[22/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/mdio.c.obj 
+[23/57] Building C object kernel/CMakeFiles/freertos_kernel.dir/queue.c.obj 
+[24/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/het.c.obj 
+[25/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/lin.c.obj 
+[26/57] Building ASM object hal/CMakeFiles/tmdx570_hal.dir/source/sys_core.asm.obj arm-none-eabi-gcc: warning: /home/cmcd/Documents/github/tmds570_rtos/hal/source/sys_core.asm: linker input file unused because linking not done 
+[27/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/i2c.c.obj 
+[28/57] Building ASM object hal/CMakeFiles/tmdx570_hal.dir/source/sys_intvecs.asm.obj arm-none-eabi-gcc: warning: /home/cmcd/Documents/github/tmds570_rtos/hal/source/sys_intvecs.asm: linker input file unused because linking not done 
+[29/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/mibspi.c.obj 
+[30/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/pom.c.obj 
+[31/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/rtp.c.obj 
+[32/57] Building ASM object hal/CMakeFiles/tmdx570_hal.dir/source/sys_core.s.obj 
+[33/57] Building ASM object hal/CMakeFiles/tmdx570_hal.dir/source/sys_intvecs.s.obj 
+[34/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/notification.c.obj 
+[35/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/pinmux.c.obj 
+[36/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/emac.c.obj 
+[37/57] Building ASM object hal/CMakeFiles/tmdx570_hal.dir/source/sys_mpu.s.obj 
+[38/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/phy_dp83640.c.obj 
+[39/57] Building ASM object hal/CMakeFiles/tmdx570_hal.dir/source/sys_mpu.asm.obj arm-none-eabi-gcc: warning: /home/cmcd/Documents/github/tmds570_rtos/hal/source/sys_mpu.asm: linker input file unused because linking not done 
+[40/57] Building ASM object hal/CMakeFiles/tmdx570_hal.dir/source/sys_pmu.asm.obj arm-none-eabi-gcc: warning: /home/cmcd/Documents/github/tmds570_rtos/hal/source/sys_pmu.asm: linker input file unused because linking not done 
+[41/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/rti.c.obj 
+[42/57] Building ASM object hal/CMakeFiles/tmdx570_hal.dir/source/sys_pmu.s.obj 
+[43/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/sci.c.obj 
+[44/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/sys_main.c.obj 
+[45/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/sys_phantom.c.obj 
+[46/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/spi.c.obj 
+[47/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/sys_dma.c.obj 
+[48/57] Building C object kernel/CMakeFiles/freertos_kernel.dir/tasks.c.obj 
+[49/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/sys_pcr.c.obj 
+[50/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/sys_pmm.c.obj 
+[51/57] Linking C static library kernel/libfreertos_kernel.a FAILED: 
+    kernel/libfreertos_kernel.a : && /usr/bin/cmake -E rm -f kernel/libfreertos_kernel.a && 
+    /usr/bin/arm-none-eabi-ar qc kernel/libfreertos_kernel.a port/CMakeFiles/freertos_kernel_port.dir/port.c.obj 
+    port/CMakeFiles/freertos_kernel_port.dir/portASM.asm.obj kernel/CMakeFiles/freertos_kernel.dir/croutine.c.obj 
+    kernel/CMakeFiles/freertos_kernel.dir/event_groups.c.obj kernel/CMakeFiles/freertos_kernel.dir/list.c.obj 
+    kernel/CMakeFiles/freertos_kernel.dir/queue.c.obj kernel/CMakeFiles/freertos_kernel.dir/stream_buffer.c.obj 
+    kernel/CMakeFiles/freertos_kernel.dir/tasks.c.obj kernel/CMakeFiles/freertos_kernel.dir/timers.c.obj 
+    kernel/CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.obj && /usr/bin/arm-none-eabi-ranlib 
+    kernel/libfreertos_kernel.a && : /usr/bin/arm-none-eabi-ar: port/CMakeFiles/freertos_kernel_port.dir/portASM.asm.obj: No such file or directory 
+[52/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/sys_startup.c.obj 
+[53/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/sys_vim.c.obj 
+[54/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/system.c.obj 
+[55/57] Building C object hal/CMakeFiles/tmdx570_hal.dir/source/sys_selftest.c.obj 
+
+ninja: build stopped: subcommand failed.
