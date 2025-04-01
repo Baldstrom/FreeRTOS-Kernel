@@ -39,6 +39,7 @@
  *-----------------------------------------------------------
  */
 
+#include "FreeRTOSConfig.h" 
 #include "projdefs.h"
 
 /* Type definitions. */
@@ -53,6 +54,10 @@
 typedef portSTACK_TYPE StackType_t;
 typedef long BaseType_t;
 typedef unsigned long UBaseType_t;
+
+#ifndef configTICK_TYPE_WIDTH_IN_BITS
+#define configTICK_TYPE_WIDTH_IN_BITS           TICK_TYPE_WIDTH_32_BITS
+#endif
 
 #if (configTICK_TYPE_WIDTH_IN_BITS == TICK_TYPE_WIDTH_16_BITS)
     typedef uint16_t TickType_t;
@@ -109,9 +114,10 @@ extern void vPortYield( void );
 
 #endif /* configUSE_PORT_OPTIMISED_TASK_SELECTION */
 
-
 /* Task function macros as described on the FreeRTOS.org WEB site. */
 #define portTASK_FUNCTION(vFunction, pvParameters)       void vFunction(void *pvParameters)
 #define portTASK_FUNCTION_PROTO(vFunction, pvParameters) void vFunction(void *pvParameters)
+
+__attribute__(( weak )) void vApplicationMallocFailedHook(void);
 
 #endif /* __PORTMACRO_H__ */

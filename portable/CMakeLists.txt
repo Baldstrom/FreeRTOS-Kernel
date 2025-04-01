@@ -768,7 +768,7 @@ add_library(freertos_kernel_port OBJECT
     # TMDS570 Hercules
     $<$<STREQUAL:${FREERTOS_PORT},GCC_TMDS570>:
         GCC/TMDS570/port.c
-        GCC/TMDS570/portASM.s
+        GCC/TMDS570/portASM.s>
 )
 
 if( FREERTOS_PORT MATCHES "GCC_ARM_CM(3|4)_MPU" OR

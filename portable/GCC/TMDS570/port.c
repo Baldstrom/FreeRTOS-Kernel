@@ -297,6 +297,17 @@ void vPortExitCritical( void )
 }
 /*-----------------------------------------------------------*/
 
+#if configUSE_MALLOC_FAILED_HOOK == 1
+__attribute__(( weak )) void vApplicationMallocFailedHook(void)
+{
+    // Loop indefinitely for now
+    for (;;)
+    {
+
+    }
+}
+#endif
+
 #if __TI_VFP_SUPPORT__
 
     void vPortTaskUsesFPU( void )
