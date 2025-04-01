@@ -55,6 +55,10 @@ typedef portSTACK_TYPE StackType_t;
 typedef long BaseType_t;
 typedef unsigned long UBaseType_t;
 
+// normally is ( ( UBaseType_t ) 0 )
+// but compiler gives bizzare error when this is changed... not sure why
+#define portPRIVILEGE_BIT   (0)
+
 #ifndef configTICK_TYPE_WIDTH_IN_BITS
 #define configTICK_TYPE_WIDTH_IN_BITS           TICK_TYPE_WIDTH_32_BITS
 #endif
