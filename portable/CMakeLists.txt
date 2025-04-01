@@ -764,6 +764,11 @@ add_library(freertos_kernel_port OBJECT
         WizC/PIC18/port.c
         WizC/PIC18/Drivers/Tick/isrTick.c
         WizC/PIC18/Drivers/Tick/Tick.c>
+    
+    # TMDS570 Hercules
+    $<$<STREQUAL:${FREERTOS_PORT},GCC_TMDS570>:
+        GCC/TMDS570/port.c
+        GCC/TMDS570/portASM.s
 )
 
 if( FREERTOS_PORT MATCHES "GCC_ARM_CM(3|4)_MPU" OR
@@ -1213,6 +1218,9 @@ target_include_directories(freertos_kernel_port_headers INTERFACE
 
     # Microchip PIC18 port for WIZ-C
     $<$<STREQUAL:${FREERTOS_PORT},WIZC_PIC18>:${CMAKE_CURRENT_LIST_DIR}/WizC/PIC18>
+
+    # Port for TMDS570 Hercules on ARM
+    $<$<STREQUAL:${FREERTOS_PORT},GCC_TMDS570>:${CMAKE_CURRENT_LIST_DIR}/GCC/TMDS570>
 )
 
 target_link_libraries(freertos_kernel_port_headers
